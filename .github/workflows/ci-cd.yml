@@ -3,15 +3,15 @@ name: Family Analytic Service CI/CD
 on:
   push:
     branches:
-      - main # Запускати при пуші в гілку main
+      - main
   pull_request:
     branches:
-      - main # Запускати при створенні/оновленні Pull Request
+      - main
 
 env:
-  # Шлях до підпроекту, де знаходяться pom.xml і Dockerfile
+
   PROJECT_DIR: family-analytic-service
-  # Назва Docker-образу. Замініть 'your-registry/your-username' на актуальні дані.
+
   IMAGE_NAME: ghcr.io/alfredosusbus/family-analytic-service
 
 jobs:
@@ -28,32 +28,31 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
-          cache: 'maven' # Кешування залежностей Maven
+          cache: 'maven'
 
       - name: Build, Test, and Package
         run: mvn clean verify -DskipTests package
-        # 'verify' включає фази test та package.
-        # Можна використовувати просто 'mvn clean package' якщо тести не потрібні.
+
         working-directory: C:\Users\ivanm\IdeaProjects\Analytic_service\family-analytic-service
-        # Результатом буде файл 'target/family-analytic-service-1.0.0.jar'
+
 
       - name: Upload JAR Artifact
         uses: actions/upload-artifact@v4
         with:
           name: app-jar
           path: C:\Users\ivanm\IdeaProjects\Analytic_service\family-analytic-service/target/family-analytic-service-1.0.0.jar
-          # Це ім'я файлу відповідає артефакту та версії з pom.xml
-          retention-days: 1 # Зберігати артефакт 1 день
+
+          retention-days: 1
 
   build-and-push-docker:
     name: Build & Push Docker Image
     runs-on: ubuntu-latest
-    needs: build-and-test # Цей етап запускається лише після успішного завершення build-and-test
-    if: github.ref == 'refs/heads/main' # Запускати тільки для гілки 'main' (CD)
+    needs: build-and-test
+    if: github.ref == 'refs/heads/main'
 
     permissions:
       contents: read
-      packages: write # Дозвіл на запис у GitHub Container Registry (GHCR)
+      packages: write
 
     steps:
       - name: Checkout Repository
@@ -78,8 +77,7 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: family-analytic-service # Контекст збірки Docker (де знаходиться Dockerfile)
-          file:  C:\Users\ivanm\IdeaProjects\Analytic_service\family-analytic-service/Dockerfile # Шлях до Dockerfile
-          push: true
+          context: family-analytic-service
+          file:  C:\Users\ivanm\IdeaProjects\Analytic_service\family-analytic-service/Dockerfile
           tags: |
             family-analytic-service:latest

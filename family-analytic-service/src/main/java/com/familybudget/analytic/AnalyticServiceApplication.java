@@ -38,14 +38,14 @@ public class AnalyticServiceApplication {
         this.jdbcTemplate = jdbcTemplate;
         this.meterRegistry = meterRegistry;
 
-        // Ініціалізуємо MultiGauge
+
         this.expensesByCategory = MultiGauge.builder("family_expenses_by_category")
                 .description("Витрати по категоріях")
                 .baseUnit("UAH")
                 .register(meterRegistry);
     }
 
-    // static вирішує проблему циклічної залежності
+
     @Bean
     public MessageConverter jsonMessageConverter() {
         return new Jackson2JsonMessageConverter();
@@ -55,24 +55,24 @@ public class AnalyticServiceApplication {
     public void listenForExpenses(ExpenseMessage message) {
         System.out.println(">>> ОТРИМАНО ЧЕРЕЗ RABBITMQ: " + message.description() + " на суму " + message.amount());
 
-        // Тут можна викликати оновлення метрик миттєво, не чекаючи 10 секунд!
+
         updateCategoryMetrics();
     }
 
     @PostConstruct
     public void initMetrics() {
-        // Загальні витрати
+
         Gauge.builder("family_budget_total_expenses", this, value -> getTotalExpenses())
                 .description("Загальна сума витрат")
                 .register(meterRegistry);
 
-        // Остання зарплата
+
         Gauge.builder("family_budget_last_salary", this, value -> getLastSalary())
                 .description("Остання зарплата")
                 .register(meterRegistry);
     }
 
-    // Оновлення категорій кожні 10 секунд
+
     @Scheduled(fixedRate = 10000)
     public void updateCategoryMetrics() {
         String sql = """
@@ -91,7 +91,7 @@ public class AnalyticServiceApplication {
                     .map(stat -> MultiGauge.Row.of(Tags.of("category", stat.name), stat.total))
                     .collect(Collectors.toList());
 
-            // true = перезаписуємо старі значення
+
             expensesByCategory.register(rows, true);
 
         } catch (Exception e) {

@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd60f380-5e41-48b2-ab91-c40add2b04bd" name="Changes" comment="innicial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family-analytic-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family-analytic-service/src/main/java/com/familybudget/analytic/AnalyticServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/src/main/java/com/familybudget/analytic/AnalyticServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family-analytic-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family-analytic-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family-analytic-service/target/classes/com/familybudget/analytic/AnalyticServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/target/classes/com/familybudget/analytic/AnalyticServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family-analytic-service/target/family-analytic-service-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/target/family-analytic-service-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family-analytic-service/target/family-analytic-service-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/target/family-analytic-service-1.0.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family-analytic-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family-infra/.env" beforeDir="false" afterPath="$PROJECT_DIR$/family-infra/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family-infra/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/family-infra/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="dd60f380-5e41-48b2-ab91-c40add2b04bd" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/family-infra" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -158,7 +145,7 @@
       <workItem from="1766509131932" duration="121000" />
       <workItem from="1766865520940" duration="4298000" />
       <workItem from="1766870013453" duration="714000" />
-      <workItem from="1766870744694" duration="8895000" />
+      <workItem from="1766870744694" duration="9376000" />
     </task>
     <task id="LOCAL-00001" summary="innicial commit">
       <option name="closed" value="true" />
@@ -200,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765210370454</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1766880023868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766880023868</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +215,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="innicial commit 1.1" />
     <MESSAGE value="innicial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="innicial commit" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

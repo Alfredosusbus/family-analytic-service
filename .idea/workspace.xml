@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd60f380-5e41-48b2-ab91-c40add2b04bd" name="Changes" comment="innicial commit">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-analytic-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-analytic-service/src/main/java/com/familybudget/analytic/AnalyticServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/src/main/java/com/familybudget/analytic/AnalyticServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-analytic-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-analytic-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-analytic-service/target/classes/com/familybudget/analytic/AnalyticServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/target/classes/com/familybudget/analytic/AnalyticServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-analytic-service/target/family-analytic-service-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/target/family-analytic-service-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-analytic-service/target/family-analytic-service-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/target/family-analytic-service-1.0.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-analytic-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/family-analytic-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-infra/.env" beforeDir="false" afterPath="$PROJECT_DIR$/family-infra/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-infra/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/family-infra/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/family-infra" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -31,12 +42,19 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Alfredosusbus/Analytic_service.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/g-por/family-infra.git&quot;,
     &quot;accountId&quot;: &quot;7c950ac5-df7e-46b9-9c0b-70aeddc83283&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -46,28 +64,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnaliticServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ivanm/IdeaProjects/Analytic_service&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ivanm/IdeaProjects/Analitic_service/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnaliticServiceApplication.executor": "Run",
+    "Docker.family-infra: Compose Deployment.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ivanm/IdeaProjects/Analytic_service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/ivanm/IdeaProjects/Analitic_service/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.customizations",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ivanm\IdeaProjects\Analytic_service\family-analytic-service\src\main\java\com\familybudget\analytic" />
@@ -75,6 +95,38 @@
       <recent name="C:\Users\ivanm\IdeaProjects\Analytic_service\family-analytic-service\src\main\" />
       <recent name="C:\Users\ivanm\IdeaProjects\Analitic_service\family-analitic-service" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Analytic_service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Analytic_service" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="family-infra: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="family-infra/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.family-infra: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -103,6 +155,10 @@
       <workItem from="1764506344285" duration="509000" />
       <workItem from="1764506868287" duration="3376000" />
       <workItem from="1765206858533" duration="2536000" />
+      <workItem from="1766509131932" duration="121000" />
+      <workItem from="1766865520940" duration="4298000" />
+      <workItem from="1766870013453" duration="714000" />
+      <workItem from="1766870744694" duration="8895000" />
     </task>
     <task id="LOCAL-00001" summary="innicial commit">
       <option name="closed" value="true" />
@@ -128,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765209039500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="innicial commit 1.1">
+      <option name="closed" value="true" />
+      <created>1765210304165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765210304165</updated>
+    </task>
+    <task id="LOCAL-00005" summary="innicial commit">
+      <option name="closed" value="true" />
+      <created>1765210370454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765210370454</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,8 +218,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="innicial commit" />
     <MESSAGE value="innicial commit 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="innicial commit 1.1" />
+    <MESSAGE value="innicial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="innicial commit" />
   </component>
 </project>

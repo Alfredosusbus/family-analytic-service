@@ -1,1 +1,3 @@
 com\familybudget\analytic\AnalyticServiceApplication.class
+com\familybudget\analytic\AnalyticServiceApplication$CategoryStat.class
+com\familybudget\analytic\AnalyticServiceApplication$ExpenseMessage.class
